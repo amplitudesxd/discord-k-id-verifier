@@ -1,0 +1,8 @@
+name = "k-id-face-scan"
+main = "src/index.ts"
+compatibility_date = "2025-07-26"
+
+[assets]
+directory = "public"
+run_worker_first = false
+not_found_handling = "single-page-application"
