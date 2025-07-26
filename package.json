@@ -1,0 +1,22 @@
+{
+  "name": "k-id-face-scan-worker",
+  "version": "1.0.0",
+  "description": "k-ID Face Scan application on Cloudflare Workers",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "build": "wrangler build",
+    "start": "wrangler dev",
+    "preview": "wrangler dev --remote"
+  },
+  "dependencies": {
+    "hono": "^4.8.9"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250726.0",
+    "@types/node": "^24.1.0",
+    "typescript": "^5.8.3",
+    "wrangler": "^4.26.0"
+  }
+}
