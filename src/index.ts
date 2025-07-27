@@ -228,7 +228,7 @@ class AgeVerificationProcessor {
   }
 
   private extractJWT(originalUrl: string) {
-    const url = new URL(originalUrl);
+    const url = new URL(originalUrl.replace('#', '')); // remove fragment if present
     const token = url.searchParams.get('token');
     if (!token) throw new Error('No JWT token found in original URL');
     return token;
