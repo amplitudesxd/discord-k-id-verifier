@@ -1,5 +1,7 @@
 ### ⚠️ due to an update by privately, this no longer works
 
+---
+
 ### discord k-id verification bypass
 
 first, a little rant.
