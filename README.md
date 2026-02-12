@@ -1,4 +1,4 @@
-### ⚠️ due to an update by privately, this no longer works
+### xyzeva released an updated version, go check it out! https://github.com/xyzeva/k-id-age-verifier
 
 ---
 
